@@ -2,7 +2,7 @@
 
 Rehabilitation system based on Azure AI and QuickLogic QuickFeather which detects rehabilitation movements and gives feedback to the patient.
 
-<img src="https://i.ibb.co/r780WVz/Azure-Rehab.png" width="500">
+<img src="https://i.ibb.co/r780WVz/Azure-Rehab.png">
 
 # Table of contents
 
@@ -18,6 +18,7 @@ Rehabilitation system based on Azure AI and QuickLogic QuickFeather which detect
   - [Model Test: Real Time Labeling:](#model-test-real-time-labeling)
 - [Azure TensorFlow Serverless Function:](#azure-tensorflow-serverless-function)
 - [Azure VM, MQTT Server:](#azure-vm-mqtt-server)
+- [Main UI:](#main-ui)
     - [Our Epic DEMO:](#our-epic-demo)
   - [Future Rollout:](#future-rollout)
   - [References:](#references)
@@ -60,13 +61,11 @@ Software:
 
 This is the connection diagram of the system:
 
-<img src="https://i.ibb.co/dtRRfrL/Scheme-drawio.png" width="800">
-
-Arm I/O Connection Diagram:
-
-<img src="https://hackster.imgix.net/uploads/attachments/942233/68747470733a2f2f692e6962622e636f2f4832344451384e2f41524d2d62622e706e67.png" width="800">
+<img src="https://i.ibb.co/dtRRfrL/Scheme-drawio.png">
 
 # SensiML:
+
+QuickFeather Software: [CLICK HERE](./SensiML%20Project/)
 
 ## Sample Examples:
 
@@ -93,32 +92,35 @@ Elbow Flexion:
 
 This is the model that was developed and the number of repetitions for each movement:
 
-<img src="https://i.ibb.co/tqD3zcC/image.png" width="400">
+<img src="https://i.ibb.co/tqD3zcC/image.png">
 
 ## Training:
 
 Classifier Algorithm:
 
-<img src="https://i.ibb.co/MGV5rp4/image.png" width="400">
+<img src="https://i.ibb.co/MGV5rp4/image.png">
 
 Model motion confusion matrix:
 
-<img src="https://i.ibb.co/FJ6f79B/image.png" width="400">
+<img src="https://i.ibb.co/FJ6f79B/image.png">
 
 ## Model Test: Real Time Labeling:
 
 Elbow flexo-extension:
-<img src="https://i.ibb.co/XjYNZ1V/efe.gif" width="400">
+
+<img src="https://i.ibb.co/XjYNZ1V/efe.gif">
 
 Arm Lift (Lateral raise):
-<img src="https://i.ibb.co/6RDY1fP/al.gif" width="400">
+
+<img src="https://i.ibb.co/6RDY1fP/al.gif">
 
 Elbow Flexion:
-<img src="https://i.ibb.co/nbxMdbD/ef.gif" width="400">
+
+<img src="https://i.ibb.co/nbxMdbD/ef.gif">
 
 # Azure TensorFlow Serverless Function:
 
-Function Files: [CLICK HERE](./TF%20Function%20App/)
+Function Files: [CLICK HERE](./TF-FunctionApp/)
 
 Para poder crear la funcion y poder testearla en un ambiente local, se decidio utilizar la extension de Azure para VScode.
 
@@ -171,23 +173,33 @@ Para gestionar el servicio de MQTT se uso el software [Mosquitto](https://mosqui
 
 <img src="https://i.ibb.co/MBR62Ld/image.png">
 
-El uso principal del servicio MQTT es el control del brazo robotico de forma inalambrica, el controlador del brazo es un ESP32.
+El uso principal del servicio MQTT es el control del brazo robotico de forma inalambrica, el controlador del brazo es un ESP32 y un arreglo de 8 Relays.
 
 ARM Software: [CLICK HERE](./ARM-MQTT/)
+
+Arm I/O Connection Diagram:
+
+<img src="https://hackster.imgix.net/uploads/attachments/942233/68747470733a2f2f692e6962622e636f2f4832344451384e2f41524d2d62622e706e67.png">
 
 Segun el ejercicio que queremos mostrar tendremos que mandar un mensaje a los siguientes topics.
 
 - /efe
 
-<img src="https://i.ibb.co/xSnbKfw/efebrazo.gif" width="400">
+<img src="https://i.ibb.co/xSnbKfw/efebrazo.gif">
 
 - /al
 
-<img src="https://i.ibb.co/qRpM738/albrazo.gif" width="400">
+<img src="https://i.ibb.co/qRpM738/albrazo.gif">
 
 - /ef
 
-<img src="https://i.ibb.co/bRCBFsR/efbrazo.gif" width="400">
+<img src="https://i.ibb.co/bRCBFsR/efbrazo.gif">
+
+# Main UI:
+
+Combinando todos los elementos anteriores se programo una UI sencilla para el medico terapeuta, con el fin de que pueda controlar el brazo a distancia, recibir los datos del QuickFeather y a su vez ver la pose del paciente.
+
+<img src="https://i.ibb.co/M9DnTxr/vlcsnap-2022-05-03-18h39m17s445.png">
 
 ### Our Epic DEMO:
 
