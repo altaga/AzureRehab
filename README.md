@@ -108,7 +108,7 @@ Model motion confusion matrix:
 
 Elbow flexo-extension:
 
-<img src="https://i.ibb.co/XjYNZ1V/efe.gif">
+<img src="./Images/Gifs/efe.gif">
 
 Arm Lift (Lateral raise):
 
