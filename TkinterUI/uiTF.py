@@ -13,7 +13,7 @@ def on_connect(client, userdata, flags, rc):
 
 client = mqtt.Client()
 client.on_connect = on_connect
-client.username_pw_set("ESP-IoT", "qwertyQWERTY0128")
+client.username_pw_set("ESP-IoT", "password")
 client.connect("20.127.106.220", 1883, 60)
 
 root = tk.Tk()
