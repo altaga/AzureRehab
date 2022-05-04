@@ -48,7 +48,6 @@ Hardware:
 - [QuickFeather Development Kit. 1x.](https://www.quicklogic.com/products/eos-s3/quickfeather-development-kit/)
 - [ESP32. 1x](https://www.adafruit.com/product/3405)
 - [Robotic Arm x1.](https://www.amazon.com/OWI-Robotic-Soldering-Required-Extensive/dp/B0017OFRCY)
-- [ESP32 x1.](https://www.adafruit.com/product/3405)
 - [8 Channel DC 5V Relay Module with Optocoupler x1.](https://www.amazon.com/Elegoo-Module-Optocoupler-Arduino-Raspberry/dp/B07F623PHG)
 
 Software:
