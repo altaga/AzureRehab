@@ -112,11 +112,11 @@ Elbow flexo-extension:
 
 Arm Lift (Lateral raise):
 
-<img src="https://i.ibb.co/6RDY1fP/al.gif">
+<img src="./Images/Gifs/al.gif">
 
 Elbow Flexion:
 
-<img src="https://i.ibb.co/nbxMdbD/ef.gif">
+<img src="./Images/Gifs/ef.gif">
 
 # Azure TensorFlow Serverless Function:
 
@@ -159,7 +159,7 @@ Instructions:
 - Una vez estes listo presiona el boton de Capture, si tenias algo de delay activo empezara un countdown, sino la foto se tomara de forma instantanea.
 
 EXAMPLE:
-<img src="https://i.ibb.co/rp6fL5k/ezgif-com-gif-maker-3.gif">
+<img src="./Images/Gifs/webpage.gif">
 
 # Azure VM, MQTT Server:
 
@@ -185,15 +185,15 @@ Segun el ejercicio que queremos mostrar tendremos que mandar un mensaje a los si
 
 - /efe
 
-<img src="https://i.ibb.co/xSnbKfw/efebrazo.gif">
+<img src="./Images/Gifs/efebrazo.gif">
 
 - /al
 
-<img src="https://i.ibb.co/qRpM738/albrazo.gif">
+<img src="./Images/Gifs/albrazo.gif">
 
 - /ef
 
-<img src="https://i.ibb.co/bRCBFsR/efbrazo.gif">
+<img src="./Images/Gifs/efbrazo.gif">
 
 # Main UI:
 
@@ -212,7 +212,7 @@ Esta UI esta echa en Python y permite controlar con los 3 botones inferiores que
 ### Our Epic DEMO:
 
 Video: Click on the image
-[![Rehab](https://i.ibb.co/Bjg48mh/Brainium-Rehab.png)](https://youtu.be/GYoLvldvk-s)
+[![Rehab](https://i.ibb.co/r780WVz/Azure-Rehab.png)](PENDING)
 
 Sorry github does not allow embed videos.
 
