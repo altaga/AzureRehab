@@ -179,7 +179,7 @@ ARM Software: [CLICK HERE](./ARM-MQTT/)
 
 Arm I/O Connection Diagram:
 
-<img src="https://hackster.imgix.net/uploads/attachments/942233/68747470733a2f2f692e6962622e636f2f4832344451384e2f41524d2d62622e706e67.png">
+<img src="https://hackster.imgix.net/uploads/attachments/942233/68747470733a2f2f692e6962622e636f2f4832344451384e2f41524d2d62622e706e67.png" width="400px">
 
 Segun el ejercicio que queremos mostrar tendremos que mandar un mensaje a los siguientes topics.
 
