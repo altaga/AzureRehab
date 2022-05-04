@@ -13,4 +13,5 @@ Instructions:
 - Una vez estes listo presiona el boton de Capture, si tenias algo de delay activo empezara un countdown, sino la foto se tomara de forma instantanea.
 
 EXAMPLE:
-<img src="./Images/Gifs/webpage.gif">
+
+<img src="../Images/Gifs/webpage.gif">
