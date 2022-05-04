@@ -201,6 +201,14 @@ Combinando todos los elementos anteriores se programo una UI sencilla para el me
 
 <img src="https://i.ibb.co/M9DnTxr/vlcsnap-2022-05-03-18h39m17s445.png">
 
+Tkinter UI:
+
+UI Files: [CLICK HERE](./TkinterUI/)
+
+Esta UI esta echa en Python y permite controlar con los 3 botones inferiores que ejercicio va a mostrar el brazo al paciente, a su vez de mostrar la imagen procesada por la AI.
+
+<img src="https://i.ibb.co/31Lnyq8/vlcsnap-2022-05-03-18h39m17s445-1.png">
+
 ### Our Epic DEMO:
 
 Video: Click on the image
