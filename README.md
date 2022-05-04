@@ -17,6 +17,7 @@ Rehabilitation system based on Azure AI and QuickLogic QuickFeather which detect
   - [Training:](#training)
   - [Model Test: Real Time Labeling:](#model-test-real-time-labeling)
 - [Azure TensorFlow Serverless Function:](#azure-tensorflow-serverless-function)
+- [WebPage DEMO:](#webpage-demo)
 - [Azure VM, MQTT Server:](#azure-vm-mqtt-server)
 - [Main UI:](#main-ui)
     - [Our Epic DEMO:](#our-epic-demo)
@@ -145,6 +146,8 @@ La funcion funciona gracias a un interpreter de Tflite con el fin de optimizar l
 Y para poder consumirlo mediante API se configuro CORS para permitir a nuestra pagina o nuestro software.
 
 <img src="https://i.ibb.co/FgWkrHW/image.png">
+
+# WebPage DEMO:
 
 Puedes probar nuestra API desde nuestra pagina web desplegada en Azure Static Web App service.
 
