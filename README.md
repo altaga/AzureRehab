@@ -60,18 +60,18 @@ Before performing any other task, it was vital to be able to generate a model fo
 
 Elbow flexoextension:
 
-<img src="https://i.ibb.co/qkX5VfF/image.png" width="400">
-<img src="https://i.ibb.co/RBY7K7L/image.png" width="400">
+<img src="https://i.ibb.co/RBY7K7L/image.png" width="49%">
+<img src="https://i.ibb.co/qkX5VfF/image.png" width="49%">
 
 Arm Lift:
 
-<img src="https://i.ibb.co/CzXGq2v/image.png" width="400">
-<img src="https://i.ibb.co/XZdHHrS/image.png" width="400">
+<img src="https://i.ibb.co/XZdHHrS/image.png" width="49%">
+<img src="https://i.ibb.co/CzXGq2v/image.png" width="49%">
 
 Elbow Flexion:
 
-<img src="https://i.ibb.co/jkJ4qfd/image.png" width="400">
-<img src="https://i.ibb.co/hDrN088/image.png" width="400">
+<img src="https://i.ibb.co/hDrN088/image.png" width="49%">
+<img src="https://i.ibb.co/jkJ4qfd/image.png" width="49%">
 
 ## Sampling:
 
@@ -196,6 +196,17 @@ This UI is made in Python and allows you to control with the 3 lower buttons whi
 
 <img src="https://i.ibb.co/31Lnyq8/vlcsnap-2022-05-03-18h39m17s445-1.png" width="400">
 
+# Prototypes:
+
+## FPGA Device:
+<img src="https://i.ibb.co/qpYp3S9/20220503-142125.png" width="400">
+
+## Robot Arm:
+<img src="https://i.ibb.co/rx5Qpty/vlcsnap-2022-05-15-16h09m04s778.png" width="400">
+
+## Full Solution:
+<img src="https://i.ibb.co/wc9pdHC/vlcsnap-2022-05-15-16h50m06s776.png" width="400">
+
 # Our DEMO:
 
 Video: Click on the image
@@ -233,7 +244,6 @@ Thank you for reading, and I hope you liked the project.
 # Table of contents
 
 - [AzureRehab](#azurerehab)
-- [Table of contents](#table-of-contents)
 - [Introduction:](#introduction)
 - [Materials:](#materials)
 - [Connection Diagram:](#connection-diagram)
@@ -246,6 +256,13 @@ Thank you for reading, and I hope you liked the project.
 - [WebPage DEMO:](#webpage-demo)
 - [Azure VM, MQTT Server:](#azure-vm-mqtt-server)
 - [Main UI:](#main-ui)
-- [Our Epic DEMO:](#our-epic-demo)
-- [Future Rollout:](#future-rollout)
+- [Prototypes:](#prototypes)
+  - [FPGA Device:](#fpga-device)
+  - [Robot Arm:](#robot-arm)
+  - [Full Solution:](#full-solution)
+- [Our DEMO:](#our-demo)
+- [Business Opportunity](#business-opportunity)
+  - [Regarding SDG's](#regarding-sdgs)
+  - [Future Rollout](#future-rollout)
 - [References:](#references)
+- [Table of contents](#table-of-contents)
