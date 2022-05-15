@@ -205,7 +205,7 @@ This UI is made in Python and allows you to control with the 3 lower buttons whi
 <img src="https://i.ibb.co/rx5Qpty/vlcsnap-2022-05-15-16h09m04s778.png" width="400">
 
 ## Full Solution:
-<img src="https://i.ibb.co/wc9pdHC/vlcsnap-2022-05-15-16h50m06s776.png" width="400">
+<img src="https://i.ibb.co/5BvsykQ/image-6.png" width="400">
 
 # Our DEMO:
 
