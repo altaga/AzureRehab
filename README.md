@@ -4,25 +4,6 @@ Rehabilitation system based on Azure AI and QuickLogic QuickFeather which detect
 
 <img src="https://i.ibb.co/r780WVz/Azure-Rehab.png">
 
-# Table of contents
-
-- [AzureRehab](#azurerehab)
-- [Table of contents](#table-of-contents)
-- [Introduction:](#introduction)
-- [Materials:](#materials)
-- [Connection Diagram:](#connection-diagram)
-- [SensiML:](#sensiml)
-  - [Sample Examples:](#sample-examples)
-  - [Sampling:](#sampling)
-  - [Training:](#training)
-  - [Model Test: Real Time Labeling:](#model-test-real-time-labeling)
-- [Azure TensorFlow Serverless Function:](#azure-tensorflow-serverless-function)
-- [WebPage DEMO:](#webpage-demo)
-- [Azure VM, MQTT Server:](#azure-vm-mqtt-server)
-- [Main UI:](#main-ui)
-- [Our Epic DEMO:](#our-epic-demo)
-- [Future Rollout:](#future-rollout)
-- [References:](#references)
 
 # Introduction:
 
@@ -247,3 +228,24 @@ Thank you for reading, and I hope you liked the project.
 # References:
 
 - https://www.persistencemarketresearch.com/market-research/rehabilitation-equipment-market.asp
+
+
+# Table of contents
+
+- [AzureRehab](#azurerehab)
+- [Table of contents](#table-of-contents)
+- [Introduction:](#introduction)
+- [Materials:](#materials)
+- [Connection Diagram:](#connection-diagram)
+- [SensiML:](#sensiml)
+  - [Sample Examples:](#sample-examples)
+  - [Sampling:](#sampling)
+  - [Training:](#training)
+  - [Model Test: Real Time Labeling:](#model-test-real-time-labeling)
+- [Azure TensorFlow Serverless Function:](#azure-tensorflow-serverless-function)
+- [WebPage DEMO:](#webpage-demo)
+- [Azure VM, MQTT Server:](#azure-vm-mqtt-server)
+- [Main UI:](#main-ui)
+- [Our Epic DEMO:](#our-epic-demo)
+- [Future Rollout:](#future-rollout)
+- [References:](#references)
