@@ -2,7 +2,7 @@
 
 Rehabilitation system based on Azure AI and QuickLogic QuickFeather which detects rehabilitation movements and gives feedback to the patient.
 
-<img src="https://i.ibb.co/r780WVz/Azure-Rehab.png">
+<img src="https://i.ibb.co/r780WVz/Azure-Rehab.png" width="400">
 
 
 # Introduction:
