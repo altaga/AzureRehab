@@ -26,7 +26,7 @@ Rehabilitation system based on Azure AI and QuickLogic QuickFeather which detect
 
 # Introduction:
 
-Welcome to Azure Rehab, a Rehabilitation system based on Azure AI and [QuickLogic QuickFeather](https://sensiml.com/documentation/firmware/quicklogic-quickfeather/quicklogic-quickfeather.html) which detects rehabilitation movements and gives feedback to the patient through Azure's AI services.
+Welcome to Azure Rehab, a Rehabilitation system based on the [QuickLogic QuickFeather](https://sensiml.com/documentation/firmware/quicklogic-quickfeather/quicklogic-quickfeather.html) which detects rehabilitation movements and gives feedback to the patient through Azure's AI services.
 
 According to the 2019 Global Burden of Disease Study, 2.41 billion individuals, which equates to approximately 1 in 3 people, had conditions that would benefit from rehabilitation.
 
