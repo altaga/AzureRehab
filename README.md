@@ -196,13 +196,22 @@ This UI is made in Python and allows you to control with the 3 lower buttons whi
 # Prototypes:
 
 ## FPGA Device:
-<img src="https://i.ibb.co/qpYp3S9/20220503-142125.png" width="400">
+<img src="https://i.ibb.co/5LzCSKF/20220515-234222-001-1.png" width="400">
+<img src="https://i.ibb.co/rZgd270/20220515-234256-001-1-1.png" width="400">
+
+### Final:
+
+<img src="https://i.ibb.co/0sCbL5j/20220515-234112-1.png" width="400">
 
 ## Robot Arm:
+<img src="https://i.ibb.co/s1hZHWx/20220515-234035-1.png" width="400">
+<img src="https://i.ibb.co/CVdmmTS/20220515-234407-1.png" width="400">
+
+### Final:
 <img src="https://i.ibb.co/rx5Qpty/vlcsnap-2022-05-15-16h09m04s778.png" width="400">
 
 ## Full Solution:
-<img src="https://i.ibb.co/5BvsykQ/image-6.png" width="400">
+<img src="https://i.ibb.co/Wvs7Vhk/image-6-1.png" width="400">
 
 # Our DEMO:
 
@@ -255,7 +264,9 @@ Thank you for reading, and I hope you liked the project.
 - [Main UI:](#main-ui)
 - [Prototypes:](#prototypes)
   - [FPGA Device:](#fpga-device)
+    - [Final:](#final)
   - [Robot Arm:](#robot-arm)
+    - [Final:](#final-1)
   - [Full Solution:](#full-solution)
 - [Our DEMO:](#our-demo)
 - [Business Opportunity](#business-opportunity)
