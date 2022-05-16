@@ -60,15 +60,15 @@ Before performing any other task, it was vital to be able to generate a model fo
 
 Elbow flexoextension:
 
-<img src="https://i.ibb.co/RBY7K7L/image.png" width="49%"><img src="https://i.ibb.co/qkX5VfF/image.png" width="49%">
+<img src="https://i.ibb.co/GM5Qx1B/image-7.png">
 
 Arm Lift:
 
-<img src="https://i.ibb.co/XZdHHrS/image.png" width="49%"><img src="https://i.ibb.co/CzXGq2v/image.png" width="49%">
+<img src="https://i.ibb.co/GpVdLdh/image-9.png">
 
 Elbow Flexion:
 
-<img src="https://i.ibb.co/hDrN088/image.png" width="49%"><img src="https://i.ibb.co/jkJ4qfd/image.png" width="49%">
+<img src="https://i.ibb.co/6Fn6FmT/image-8.png">
 
 ## Sampling:
 
