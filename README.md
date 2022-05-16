@@ -245,6 +245,11 @@ Thank you for reading, and I hope you liked the project.
 # References:
 
 - https://www.persistencemarketresearch.com/market-research/rehabilitation-equipment-market.asp
+- https://www.physio-pedia.com/Rehabilitation_Global_Needs#:~:text=According%20to%20the%202019%20Global,that%20would%20benefit%20from%20rehabilitation.
+- https://sensiml.com/documentation/firmware/quicklogic-quickfeather/quicklogic-quickfeather.html
+- https://www.healthline.com/health/cool-sculpting-cost
+- https://www.hocoma.com/solutions/armeo-power/ https://www.researchgate.net/figure/Examples-of-robotic-devices-for-motor-training-A-End-effector-type-InMotion-20_fig1_259609214
+- https://mosquitto.org/
 
 
 # Table of contents
