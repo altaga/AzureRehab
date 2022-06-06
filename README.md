@@ -48,6 +48,11 @@ This is the connection diagram of the system:
 
 <img src="https://i.ibb.co/dtRRfrL/Scheme-drawio.png">
 
+- Our edge device communicates through local TCP/IP with the capture lab, this allows us to visualize the predictions of the machine learning model in real time without delays.
+- Our Azure Function has the function of performing image processing to predict the position of the person, this API is consumed both in our sample web page and in the Demo Desktop App
+- The Azure Static Website service is used for internet deployment of our sample website.
+- The virtual machine serves as an MQTT server, which allows us to quickly communicate between the Desktop App and the robot arm.
+
 # SensiML:
 
 QuickFeather Software: [CLICK HERE](./SensiML%20Project/)
