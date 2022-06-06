@@ -1,16 +1,16 @@
 # WebPage DEMO:
 
-Puedes probar nuestra API desde nuestra pagina web desplegada en Azure Static Web App service.
+You can test our API from our website deployed in Azure Static Web App service.
 
 APP URL:
 https://kind-smoke-0ae539610.1.azurestaticapps.net/
 
 Instructions:
 
-- Abre la pagina web.
-- Permite el acceso a la camara.
-- Si deseas alejarte de la camara puedes apretar el boton de Delay y eso te dara unos segundos adicionales antes de la foto.
-- Una vez estes listo presiona el boton de Capture, si tenias algo de delay activo empezara un countdown, sino la foto se tomara de forma instantanea.
+- Open the web page.
+- Allow access to the camera.
+- If you want to move away from the camera you can press the Delay button and that will give you a few extra seconds before the photo.
+- Once you are ready press the Capture button, if you had some active delay a countdown will start, otherwise the photo will be taken instantly.
 
 EXAMPLE:
 
