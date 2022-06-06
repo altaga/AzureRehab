@@ -46,7 +46,7 @@ Software:
 
 This is the connection diagram of the system:
 
-<img src="https://i.ibb.co/dtRRfrL/Scheme-drawio.png">
+<img src="https://i.ibb.co/52k4XT9/Scheme-drawio-4.png">
 
 - Our edge device communicates through local TCP/IP with the capture lab, this allows us to visualize the predictions of the machine learning model in real time without delays.
 - Our Azure Function has the function of performing image processing to predict the position of the person, this API is consumed both in our sample web page and in the Demo Desktop App
