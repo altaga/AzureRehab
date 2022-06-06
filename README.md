@@ -52,7 +52,7 @@ This is the connection diagram of the system:
 - Our Azure Function has the function of performing image processing to predict the position of the person, this API is consumed both in our sample web page and in the Demo Desktop App
 - The Azure Static Website service is used for internet deployment of our sample website.
 - The virtual machine serves as an MQTT server, which allows us to quickly communicate between the Desktop App and the robot arm.
-- All the pertinent results and information is sent then to an Azure CosmosDB to further processing in ML and future reference.
+- All the pertinent results and information is sent then to an Azure CosmosDB through an Azure function that combines Sensor detections, Webapp Results and Robotic Arm control sessions. This to further processing in ML and future reference.
 
 # SensiML:
 
