@@ -31,7 +31,7 @@ class Cam extends Component {
             setTimeout(() => {
                 clearInterval(counterDown)
                 let imageSrc = this.webcamRef.current.getScreenshot();
-                unirest('post', 'https://azuretf.azurewebsites.net/api/Azure-TFlite?code=waug9kwZ3VLkid0bBfAprjDmaFril53fL0KKyHAUhV6etLOPLvhUJg==')
+                unirest('post', 'https://azuretf.azurewebsites.net/api/Azure-TFlite?code=XXX')
                     .send(imageSrc.replace('data:image/jpeg;base64,', ''))
                     .end((res) => {
                         this.setState({
@@ -39,6 +39,12 @@ class Cam extends Component {
                             dis: false,
                             delay: 0
                         })
+                    });
+                    // COSMOS DB Metrics
+                    unirest('GET', 'https://cosmosdbupload.azurewebsites.net/api/HttpTrigger1?code=XXX&kind=webpage&value=OK')
+                    .end(function (res) { 
+                      if (res.error) throw new Error(res.error); 
+                      console.log(res.raw_body);
                     });
             }, this.state.delay * 1000);
         })
