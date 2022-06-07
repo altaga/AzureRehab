@@ -199,6 +199,33 @@ This UI is made in Python and allows you to control with the 3 lower buttons whi
 
 <img src="https://i.ibb.co/31Lnyq8/vlcsnap-2022-05-03-18h39m17s445-1.png" width="400">
 
+# CosmosDB:
+
+La ventaja que tenemos con Azure es poder mandar todos los datos de nuestra solucion directamente e la misma database ya que esta es una base de datos NoSQL.
+
+<img src="https://i.ibb.co/XYT0TRV/image.png">
+
+A su vez para facilitar la escritura de datos en la DB creamos una [Azure Function](./CosmosDB-FunctionApp/) la cual permite la facil escritura de datos mediante una API.
+
+    curl --location --request GET 'https://cosmosdbupload.azurewebsites.net/api/HttpTrigger1?code=GmuCs75dbFofyy9nRkxT3AbiEgI_PzWTKH_bxrM9vlviAzFuFniteQ==&kind=sensor&value=efe&oper=write'
+
+Los parametros de url para hacer agregar un dato en la DB es:
+
+- code: codigo de acceso otorgado por Azure para acceder a la API.
+- kind: Origen del dato
+  - webpage : Resultado en la webpage
+  - sensor: Resultado de la AI en una sesion de rehabilotacion.
+  - techUI: Comandos que el tecnico manda al Brazo Robot durante la sesion.
+- Todos los demas parametros que se manden en la url se agregaran a la DB como value.
+
+Aqui un ejemplo de request.
+
+<img src="https://i.ibb.co/6FhD5CT/image.png">
+
+Y aqui como la DB almacena los datos.
+
+<img src="https://i.ibb.co/jDrNTFx/image.png">
+
 # Prototypes:
 
 ## FPGA Device:
@@ -273,6 +300,7 @@ Thank you for reading, and I hope you liked the project.
 - [WebPage DEMO:](#webpage-demo)
 - [Azure VM, MQTT Server:](#azure-vm-mqtt-server)
 - [Main UI:](#main-ui)
+- [CosmosDB:](#cosmosdb)
 - [Prototypes:](#prototypes)
   - [FPGA Device:](#fpga-device)
     - [Final:](#final)
