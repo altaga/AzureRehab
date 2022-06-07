@@ -201,28 +201,28 @@ This UI is made in Python and allows you to control with the 3 lower buttons whi
 
 # CosmosDB:
 
-La ventaja que tenemos con Azure es poder mandar todos los datos de nuestra solucion directamente e la misma database ya que esta es una base de datos NoSQL.
+The advantage we have with Azure is being able to send all the data from our solution directly to the same database, since this is a NoSQL database.
 
 <img src="https://i.ibb.co/XYT0TRV/image.png">
 
-A su vez para facilitar la escritura de datos en la DB creamos una [Azure Function](./CosmosDB-FunctionApp/) la cual permite la facil escritura de datos mediante una API.
+In turn, to facilitate the writing of data in the DB, we created an [Azure Function](./CosmosDB-FunctionApp/) which allows the easy writing of data through an API.
 
     curl --location --request GET 'https://cosmosdbupload.azurewebsites.net/api/HttpTrigger1?code=GmuCs75dbFofyy9nRkxT3AbiEgI_PzWTKH_bxrM9vlviAzFuFniteQ==&kind=sensor&value=efe&oper=write'
 
-Los parametros de url para hacer agregar un dato en la DB es:
+The url parameters to add data to the DB are:
 
-- code: codigo de acceso otorgado por Azure para acceder a la API.
-- kind: Origen del dato
-  - webpage : Resultado en la webpage
-  - sensor: Resultado de la AI en una sesion de rehabilotacion.
-  - techUI: Comandos que el tecnico manda al Brazo Robot durante la sesion.
-- Todos los demas parametros que se manden en la url se agregaran a la DB como value.
+- code: access code granted by Azure to access the API.
+- kind: Origin of the data
+   - webpage : Result on the webpage
+   - Sensor: AI result in a rehabilitation session.
+   - techUI: Commands that the technician sends to the Robot Arm during the session.
+- All the other parameters that are sent in the url will be added to the DB as value.
 
-Aqui un ejemplo de request.
+Here is an example request.
 
 <img src="https://i.ibb.co/6FhD5CT/image.png">
 
-Y aqui como la DB almacena los datos.
+And here as the DB stores the data.
 
 <img src="https://i.ibb.co/jDrNTFx/image.png">
 
